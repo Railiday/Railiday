@@ -1,0 +1,172 @@
+.flex {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 2.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-5 {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    row-gap: 15px;
+}
+
+.flex-10 {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    row-gap: 15px;
+}
+
+.flex-15 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    row-gap: 15px;
+}
+
+.flex-20 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    row-gap: 15px;
+}
+
+.flex-25 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    row-gap: 15px;
+}
+
+.flex-30 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    row-gap: 15px;
+}
+
+.flex-33 {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    row-gap: 15px;
+}
+
+.flex-35 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    row-gap: 15px;
+}
+
+.flex-40 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    row-gap: 15px;
+}
+
+.flex-45 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    row-gap: 15px;
+}
+
+.flex-50 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 15px;
+}
+
+.flex-55 {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    row-gap: 15px;
+}
+
+.flex-60 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    row-gap: 15px;
+}
+
+.flex-65 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    row-gap: 15px;
+}
+
+.flex-66 {
+    display: flex;
+    flex-direction: column;
+    width: 66.66%;
+    row-gap: 15px;
+}
+
+.flex-70 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    row-gap: 15px;
+}
+
+.flex-75 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    row-gap: 15px;
+}
+
+.flex-80 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    row-gap: 15px;
+}
+
+.flex-85 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    row-gap: 15px;
+}
+
+.flex-90 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    row-gap: 15px;
+}
+
+.flex-95 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    row-gap: 15px;
+}
+
+.no-gap {
+    row-gap: 0px;
+}
+
+
+
+@media screen and (max-width: 784px) {
+    .flex {
+        flex-direction: column;
+        row-gap: 2.5vh;
+    }
+
+    .flex-5, .flex-10, .flex-15, .flex-20, .flex-25, .flex-30, .flex-33, .flex-35, .flex-40, .flex-45, .flex-50, .flex-55, .flex-60, .flex-65, .flex-66, .flex-70, .flex-75, .flex-80, .flex-85, .flex-90, .flex-95 {
+        width: 100%;
+    }
+}
