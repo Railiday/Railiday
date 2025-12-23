@@ -3,6 +3,13 @@
     .align-right {
         text-align: left;
     }
+    
+
+
+    /* LAY-OUT */
+    main.thin {
+        width: 80%;
+    }
 
 
 
