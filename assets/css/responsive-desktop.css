@@ -1,0 +1,27 @@
+@media screen and (min-width: 1400px) {
+    nav {
+        height: 10vh;
+    }
+
+    nav .nav-left a img {
+        height: 7.5vh;
+    }
+
+
+
+    /* TEKST */
+    h1 {
+        font-size: 4rem;
+    }
+
+
+
+    /* HEADER */
+    header .header-image {
+        height: 72.5vh;
+    }
+
+    header .header-image-text {
+        height: 16.5vh;
+    }
+}
