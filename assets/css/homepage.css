@@ -117,6 +117,15 @@
 
 
 
+/* HP PLANNER DESKTOP */
+@media screen and (min-width: 1400px) {
+    .hp-planner {
+        width: 80%;
+    }
+}
+
+
+
 /* REDENEN */
 .hp-reason-box {
     display: flex;
@@ -165,6 +174,15 @@
 .hp-reason-box:hover .hp-reason-box-overlay p {
     opacity: 1;
     max-height: 150px;
+}
+
+
+
+/* REASON DESKTOP */
+@media screen and (min-width: 1400px) {
+    .hp-reason-box {
+        height: 225px;
+    }
 }
 
 
