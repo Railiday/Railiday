@@ -1,28 +1,16 @@
 @media screen and (max-width: 784px) {
-    /* TEKST */
-    .align-right {
-        text-align: left;
-    }
-    
-
-
-    /* LAY-OUT */
-    main.thin {
-        width: 80%;
+    body {
+        padding-top: 10vh;
     }
 
 
 
     /* HEADER */
-    header .header-image {
-        border-radius: 25px;
+    header.header-image {
+        height: 87.5vh;
     }
 
-    header .header-image-text {
-        height: 21.5vh;
-    }
-
-    header .header-text {
-        width: 100%;
+    header .header-overlay {
+        text-align: center;
     }
 }

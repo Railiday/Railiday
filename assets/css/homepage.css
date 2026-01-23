@@ -1,0 +1,197 @@
+/* PLANNER */
+.hp-planner {
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 12.5vh;
+    padding: 10px;
+    margin-top: -10vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hp-planner .hp-planner-title {
+    display: flex;
+    width: 100%;
+    height: calc(10vh - 10px);
+    margin-bottom: 2.5vh;
+    color: rgb(45, 46, 131);
+    font-family: "Figtree", "sans serif";
+    font-size: 2rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp-planner form fieldset.form-top {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hp-planner form fieldset.form-top select {
+    width: 47.5%;
+    padding: 2.5px;
+    font-family: "Karla", "sans serif";
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.hp-planner form fieldset.form-top select optgroup {
+    font-size: 0.9rem;
+}
+
+.hp-planner form fieldset.form-top i {
+    font-size: 1.25rem;
+}
+
+.hp-planner form fieldset.form-top i.fa-arrow-down {
+    display: none;
+}
+
+.hp-planner form fieldset.form-bottom {
+    display: flex;
+    width: 100%;
+    border: none;
+    justify-content: flex-end;
+}
+
+.hp-planner form fieldset.form-bottom button {
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Karla", "sans serif";
+    font-size: 1.0125rem;
+    background-color: rgb(138, 203, 193);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hp-planner form fieldset.form-bottom button:hover {
+    background-color: rgb(45, 46, 131);
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* HP PLANNER MOBIEL */
+@media screen and (max-width: 784px) {
+    .hp-planner .hp-planner-title {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .hp-planner form fieldset.form-top {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 5px;
+    }
+
+    .hp-planner form fieldset.form-top i.fa-arrow-right {
+        display: none;
+    }
+
+    .hp-planner form fieldset.form-top i.fa-arrow-down {
+        display: unset;
+    }
+
+    .hp-planner form fieldset.form-top select {
+        width: 100%;
+    }
+
+    .hp-planner form fieldset.form-bottom {
+        justify-content: center;
+    }
+}
+
+
+
+/* REDENEN */
+.hp-reason-box {
+    display: flex;
+    width: 100%;
+    height: 175px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.hp-reason-box .hp-reason-box-overlay {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hp-reason-box .hp-reason-box-overlay b {
+    font-family: "Figtree", "sans serif";
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.hp-reason-box .hp-reason-box-overlay p {
+    opacity: 0;
+    max-height: 0px;
+    font-size: 0.95rem;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.hp-reason-box:hover .hp-reason-box-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: flex-end;
+}
+
+.hp-reason-box:hover .hp-reason-box-overlay p {
+    opacity: 1;
+    max-height: 150px;
+}
+
+
+
+/* VARIA */
+b.big-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Figtree", "sans serif";
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 3.9rem;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* VARIA MOBIEL */
+@media screen and (max-width: 784px) {
+    section.section-blue#rediscover-belgium .flex .flex-50 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    section.section-blue#rediscover-belgium .flex .flex-50 .tag-blue, section.section-blue#rediscover-belgium .flex .flex-50 a.button-cyan {
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

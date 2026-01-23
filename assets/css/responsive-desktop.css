@@ -1,27 +1,18 @@
 @media screen and (min-width: 1400px) {
-    nav {
-        height: 10vh;
+    body {
+        padding-top: 10vh;
     }
 
-    nav .nav-left a img {
-        height: 7.5vh;
+    main {
+        width: 80%;
     }
 
-
-
-    /* TEKST */
-    h1 {
-        font-size: 4rem;
+    footer .footer-top, footer .footer-middle, footer .footer-bottom {
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 
-
-
-    /* HEADER */
-    header .header-image {
-        height: 72.5vh;
-    }
-
-    header .header-image-text {
-        height: 16.5vh;
+    header.header-image {
+        height: 87.5vh;
     }
 }
