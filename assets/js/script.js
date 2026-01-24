@@ -9,7 +9,7 @@ function closeNav() {
 }
 
 function redirectToPage() {
-    const selectedPage = document.getElementById('destination').value;
+    const selectedPage = document.getElementById("destination").value;
 
     if (selectedPage) {
         window.location.href = selectedPage;

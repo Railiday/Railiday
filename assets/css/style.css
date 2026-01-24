@@ -27,6 +27,13 @@ html {
 
 
 /* TEKST */
+h1 {
+    font-family: "Figtree", "sans serif";
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
 h2 {
     font-family: "Figtree", "sans serif";
     font-size: 2.6rem;
@@ -36,9 +43,30 @@ h2 {
 
 h3 {
     font-family: "Figtree", "sans serif";
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: rgb(45, 46, 131);
+}
+
+h4 {
+    font-family: "Figtree", "sans serif";
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: rgb(45, 46, 131);
+}
+
+h5 {
+    font-family: "Figtree", "sans serif";
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(45, 46, 131);
+}
+
+h6 {
+    font-family: "Figtree", "sans serif";
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -53,6 +81,20 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+ul {
+    padding-left: 15px;
+    list-style-type: square;
+}
+
+ul li {
+    margin-left: 15px;
+}
+
+ul.link-list li {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 }
 
 
@@ -74,6 +116,12 @@ section h1, section h2, section h3 {
     text-align: center;
 }
 
+section.section-small {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 section.section-white {
     width: 100%;
     padding: 10px;
@@ -89,9 +137,59 @@ section.section-blue {
     border-radius: 10px;
 }
 
+section.section-small-white {
+    width: 60%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+section#attractions h4 {
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2.5px solid rgba(45, 46, 131, 0.25);
+    border-radius: 2.5px;
+}
+
+[id] {
+    scroll-margin-top: 12.5vh;
+}
+
+i.fa-solid {
+    font-size: 0.825rem;
+}
+
 
 
 /* BOXES */
+.text-box {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.info-box {
+    width: 100%;
+    height: max-content;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    background-color: rgba(45, 46, 131, 0.25);
+    border: 2.5px solid rgb(45, 46, 131);
+    border-radius: 5px;
+}
+
+.info-box a i.fa-solid {
+    font-size: 0.75rem;
+}
+
 .image-box {
     width: 100%;
     height: 100%;
@@ -138,6 +236,7 @@ a.image-link-box {
 }
 
 .image-overlay:hover {
+    padding-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -154,7 +253,7 @@ a.image-link-box {
 a.border-button-white {
     width: max-content;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
     background-color: rgba(255, 255, 255, 0.1);
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -166,6 +265,22 @@ a.border-button-white {
 a.border-button-white:hover {
     background-color: rgba(255, 255, 255, 1);
     color: rgb(45, 46, 131);
+}
+
+a.border-button-black {
+    width: max-content;
+    padding: 5px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+a.border-button-black:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 a.button-cyan {
@@ -184,6 +299,11 @@ a.button-cyan:hover {
     background-color: rgb(45, 46, 131);
     color: rgb(255, 255, 255);
     border: 2.5px solid rgb(45, 46, 131);
+}
+
+a.border-button-white i.fa-solid, .border-button-black i.fa-solid {
+    margin-left: 5px;
+    font-size: 0.9rem;
 }
 
 
@@ -215,6 +335,17 @@ a.button-cyan:hover {
 
 
 
+/* IFRAME */
+iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
 /* HEADER */
 header.header-image {
     width: 97.5%;
@@ -232,10 +363,9 @@ header .header-overlay {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 15vh;
+    padding: 25px;
+    row-gap: 5px;
+    font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.4);
     color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -243,13 +373,33 @@ header .header-overlay {
     justify-content: flex-end;
 }
 
-header .header-overlay b {
-    font-family: "Figtree", "sans serif";
-    font-size: 2.5rem;
-    font-weight: 500;
+header.header-text {
+    display: flex;
+    width: 97.5%;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(45, 46, 131);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-header .header-overlay i {
-    font-size: 1.2rem;
-    font-style: normal;
+
+
+/* VARIA */
+.travel-option {
+    display: flex;
+    flex-direction: column;
+}
+
+.travel-option b {
+    margin-top: 10px;
+}
+
+.travel-option-list b {
+    font-family: "Figtree", "sans serif";
+    font-size: 1.1rem;
+    font-weight: 500;
 }

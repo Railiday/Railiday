@@ -3,6 +3,30 @@
         padding-top: 10vh;
     }
 
+    [id] {
+        scroll-margin-top: 10vh;
+    }
+
+
+
+    /* LAY-OUT */
+    section#attractions {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        text-align: center;
+    }
+
+    section#attractions a.border-button-black {
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section.section-small, section.section-small-white {
+        width: 100%;
+    }
+
 
 
     /* HEADER */

@@ -15,4 +15,16 @@
     header.header-image {
         height: 87.5vh;
     }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    .image-box {
+        min-height: 300px;
+    }
+
+    [id] {
+        scroll-margin-top: 10vh;
+    }
 }
