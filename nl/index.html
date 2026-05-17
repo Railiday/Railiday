@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Railiday">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://railiday.be/nl">
+    <meta property="og:title" content="Ontdek Europa per trein | Railiday">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="-">
+    <meta property="og:site_name" content="Railiday">
+    <meta property="og:locale" content="nl_BE">
+    <title>Ontdek Europa per trein | Railiday</title>
+    <link rel="icon" href="../assets/branding/Railiday_Vorm.svg">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/navigation.css">
+    <link rel="stylesheet" href="../assets/css/flexbox.css">
+    <link rel="stylesheet" href="../assets/css/responsive-mobile.css">
+    <link rel="stylesheet" href="../assets/css/responsive-tablet.css">
+    <link rel="stylesheet" href="../assets/css/responsive-desktop.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="../assets/branding/Railday_Origineel.svg">
+            </a>
+        </div>
+
+        <div class="nav-right-laptop">
+            <a href="citytrips/index.html">Stedentrips</a>
+            <a href="rail-tours/index.html">Rondreizen</a>
+            <a href="stations/index.html">Stations</a>
+            <a href="tickets-passes/index.html">Tickets</a>
+            <a href="tickets-passes/interrail-eurail/index.html">Interrail</a>
+            <a href="news/index.html">Nieuws</a>
+            <a href="contact/contact.html">Contact</a>
+        </div>
+
+        <div class="nav-right-mobile">
+            <span class="mobile-nav-link" onclick="openNav()">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <div id="myNav" class="nav-overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="nav-overlay-content">
+                    <a href="citytrips/index.html">Stedentrips</a>
+                    <a href="rail-tours/index.html">Rondreizen</a>
+                    <a href="stations/index.html">Stations</a>
+                    <a href="tickets-passes/index.html">Tickets</a>
+                    <a href="tickets-passes/interrail-eurail/index.html">Interrail</a>
+                    <a href="news/index.html">Nieuws</a>
+                    <a href="contact/contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="header-image" style="background-image:url(../assets/img/rhatische-bahn/regionalzug-im-unterengadin.jpg);"></div>
+
+        <div class="header-title">
+            <h1>Ontdek Europa per trein</h1>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section id="intro" data-aos="fade-up">
+            <div class="flex-stretch">
+                <div class="flex-40">
+                    <div class="image-box" style="background-image:url(../assets/img/unsplash/min-felix-xu-switzerland-01.jpg);"></div>
+                </div>
+
+                <div class="flex-60">
+                    <h4>Een wisselend uitzicht, elke seconde</h4>
+
+                    <div class="text-box">
+                        Welkom bij Railiday, jouw vertrekpunt voor treinreizen door Europa: van bruisende steden tot charmante dorpjes en indrukwekkende berglandschappen, reizen met de trein laat je Europa op een rustige en unieke manier beleven. Terwijl het uitzicht onderweg voortdurend verandert wordt niet alleen de bestemming maar ook de reis zelf een ervaring om naar uit te kijken.
+                    </div>
+
+                    <div class="text-box">
+                        Op Railiday vind je praktische en overzichtelijke informatie om jouw treinreis eenvoudig te plannen: ontdek internationale treinverbindingen, actuele dienstregelingen, ticketinformatie en handige reistips voor bestemmingen verspreid over heel Europa. Of je nu een korte citytrip plant, met de nachttrein reist of een panoramische route door de Alpen wilt beleven, hier vind je alles om goed voorbereid te vertrekken.
+                    </div>
+
+                    <div class="text-box">
+                        Treinreizen combineert comfort, vrijheid en duurzaamheid, je reist ontspannen van hart tot hart tussen Europese steden en geniet onderweg van steeds nieuwe landschappen en culturen. Railiday helpt je om nieuwe bestemmingen te ontdekken en met vertrouwen aan je volgende avontuur te beginnen, stap aan boord en ervaar Europa vanuit het raam van de trein!
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="grey" id="inspiration" data-aos="fade-up">
+            <h3>Populaire bestemmingen</h3>
+
+            <div class="flex-scroll">
+                <div class="flex-20">
+                    <a class="image-link-box" href="citytrips/de-berlin.html" style="background-image:url(../assets/img/unsplash/claudio-schwarz-berlin-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Berlijn</b>
+                            Duitsland
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a class="image-link-box" href="citytrips/nl-amsterdam.html" style="background-image:url(../assets/img/unsplash/frans-ruiter-amsterdam-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Amsterdam</b>
+                            Nederland
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a class="image-link-box" href="citytrips/at-salzburg.html" style="background-image:url(../assets/img/unsplash/leonhard-niederwimmer-salzburg-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Salzburg</b>
+                            Oostenrijk
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a class="image-link-box" href="citytrips/fr-paris.html" style="background-image:url(../assets/img/unsplash/yovan-verma-paris-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Parijs</b>
+                            Frankrijk
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a class="image-link-box" href="citytrips/gb-london.html" style="background-image:url(../assets/img/unsplash/jonathan-chng-london-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Londen</b>
+                            Engeland
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <a class="button-blue-center" href="citytrips/index.html">
+                Ontdek alle stedentrips >
+            </a>
+        </section>
+
+
+        <section id="why" data-aos="fade-up">
+            <h3>Waarom de trein?</h3>
+
+            <div class="flex">
+                <div class="flex-33">
+                    <div class="reason-box" style="background-image:url(../assets/img/unsplash/markus-winkler-db-ice-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Comfortabel</b>
+                            <p>
+                                Geniet van het gemak van de trein, waar je kunt zitten, ontspannen en genieten van het uitzicht terwijl je comfortabel naar je bestemming wordt gebracht.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-33">
+                    <div class="reason-box" style="background-image:url(../assets/img/unsplash/damir-korotaj-sweden-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Duurzaam</b>
+                            <p>
+                                Maak een bewuste keuze voor het milieu door te kiezen voor treinreizen, draag bij aan het behoud van onze planeet en geniet tegelijkertijd van een nieuwe reiservaring.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-33">
+                    <div class="reason-box" style="background-image:url(../assets/img/unsplash/neil-bates-gornergratbahn-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Uitzicht</b>
+                            <p>
+                                Van schilderachtige bergen en uitgestrekte velden tot idyllische kustlijnen en pittoreske dorpjes, de trein biedt vaak de mooiste routes die je anders zou missen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="flex-33">
+                    <div class="reason-box" style="background-image:url(../assets/img/unsplash/tom-grunbauer-kirchenlaibach-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Zorgeloos</b>
+                            <p>
+                                Zeg vaarwel tegen ingewikkelde reisroutes, files of lange wachtrijen op luchthavens, stap gewoon in en geniet van een zorgeloze reis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-33">
+                    <div class="reason-box" style="background-image:url(../assets/img/unsplash/jonathan-ansel-moy-de-vitry-switzerland-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Cultuur</b>
+                            <p>
+                                Treinreizen bieden een unieke kans om nieuwe mensen te ontmoeten en verschillende culturen te ervaren, laat je inspireren door de diversiteit van je medereizigers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-33">
+                    <div class="reason-box" style="background-image:url(../assets/img/unsplash/snap-wander-lyon-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Dichtbij</b>
+                            <p>
+                                Treinstations bevinden zich vaak in het hartje van de stad, stap uit de trein en duik meteen in de bruisende sfeer van je bestemming zonder al te veel ellende of bijkomende reistijd.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="grey" id="hidden-gems" data-aos="fade-up">
+            <h3>Verborgen parels</h3>
+
+            <div class="flex-scroll">
+                <div class="flex-40">
+                    <a class="image-link-box" href="citytrips/at-innsbruck.html" style="background-image:url(../assets/img/unsplash/marek-lumi-innsbruck-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Innsbruck</b>
+                            Oostenrijk
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a class="image-link-box" href="citytrips/lu-luxembourg.html" style="background-image:url(../assets/img/railiday-mv/20220726_121102.jpg);">
+                        <div class="box-overlay">
+                            <b>Luxemburg</b>
+                            Groothertogdom Luxemburg
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-40">
+                    <a class="image-link-box" href="citytrips/de-rothenburg-ob-der-tauber.html" style="background-image:url(../assets/img/unsplash/ben-sen-rothenburg-ob-der-tauber-01.jpg);">
+                        <div class="box-overlay">
+                            <b>Rothenburg ob der Tauber</b>
+                            Duitsland
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="news" data-aos="fade-up">
+            <h3>Spoorwegnieuws</h3>
+
+            <div class="flex-scroll">
+                <div class="flex-25">
+                    <div class="news-box">
+                        <div class="news-box-image" style="background-image:url(../assets/img/unsplash/christian-lue-ice-europa-01.jpg);">
+                            © Christian Lue
+                        </div>
+
+                        <div class="news-box-text">
+                            <b>ICE naar Antwerpen</b>
+                            <i>28 mei 2026</i>
+
+                            <p>
+                                Vanaf 7 september 2026 start Deutsche Bahn in samenwerking met NMBS een nieuwe ICE-verbinding tussen Antwerpen en het Duitse Keulen, onderweg zal deze trein ook stoppen in onder andere Brussels Airport en Leuven.
+                            </p>
+
+                            <a class="button-blue-center" href="news/2026/05/28-ice-antwerpen.html">
+                                Lees verder >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="button-black-center" href="news/index.html">
+                Meer nieuwsberichten >
+            </a>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="footer-top">
+            <b>Gebruikte afbeeldingen:</b><br>
+            Banner: Ardez (Zwitserland), © Rhätische Bahn / Andrea Badrutt<br>
+            Intro: Zwitserland, © Min Felix Xu<br>
+            Berlijn: Brandenburger Tor, © Cladio Schwarz<br>
+            Amsterdam: Rijksmuseum, © Frans Ruiter<br>
+            Salzburg: Festung Hohensalzburg, © Leonhard Niederwimmer<br>
+            Parijs: Tour Eiffel, © Yovan Verma<br>
+            Londen: Millenium Bridge, © Jonathan Chng<br>
+            Comfortabel: ICE-trein (Duitsland), © Markus Winkler<br>
+            Duurzaam: Zweden, © Damir Korotaj<br>
+            Uitzicht: Zermatt (Zwitserland), © Neil Bates<br>
+            Zorgeloos: Kirchenlaibach (Duitsland), © Tom Grünbauer<br>
+            Cultuur: Lavaux (Zwitserland), © Jonathan Ansel Moy de Vitry<br>
+            Dichtbij: Lyon-Part-Dieu (Frankrijk), © Snap Wander<br>
+            Innsbruck: Maria-Theresien-Straße, © Marek Lumi<br>
+            Luxemburg: Grund, © Mervyn Vangenechten<br>
+            Rothenburg ob der Tauber: Plönlein, © Ben Sen<br>
+        </div>
+
+        <a href="index.html">
+            <img src="../assets/branding/Railday_Wit.svg">
+        </a>
+
+        <div class="footer-bottom">
+            Railiday is geen bedrijf, corporatie of reiskantoor, dit is louter mijn eigen kennis die handig kan zijn voor andere treinreizigers.<br>
+            Deze website biedt algemene informatie, raadpleeg officiële bronnen voor de meest actuele informatie.<br>
+            Deze website gebruikt geen trackingcookies, advertenties of analytische tools.<br>
+            Webdesign door Mervyn Vangenechten<br>
+            © Railiday, 2026<br>
+        </div>
+    </footer>
+</body>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/bf37516dbe.js" crossorigin="anonymous"></script>
+<script src="../assets/js/script.js"></script>
+
+
+</html>
