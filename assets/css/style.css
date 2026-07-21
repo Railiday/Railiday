@@ -659,6 +659,7 @@ footer b {
     /* LAY-OUT */
     section {
         width: calc(80% - 20px);
+        max-width: 1400px;
     }
 
 
