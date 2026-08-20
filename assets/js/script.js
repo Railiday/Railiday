@@ -19,39 +19,35 @@ const nav = document.querySelector("nav");
 )
 
 document.querySelectorAll(".timetable").forEach(details => {
-    const summary = details.querySelector("summary");
     const content = details.querySelector(".timetable-content");
+    const summary = details.querySelector("summary");
 
-    summary.addEventListener("click", (e) => {
+    summary.addEventListener("click", e => {
         e.preventDefault();
 
         if (details.open) {
-            const height = content.scrollHeight;
-            content.style.height = height + "px";
+            content.style.height = content.scrollHeight + "px";
 
             requestAnimationFrame(() => {
                 content.style.height = "0px";
             });
 
-            content.addEventListener("transitionend", function handler() {
+            content.addEventListener("transitionend", () => {
                 details.open = false;
-                content.removeEventListener("transitionend", handler);
-            });
-        } 
-        else {
+            }, { once: true });
+
+        } else {
             details.open = true;
 
-            const height = content.scrollHeight;
             content.style.height = "0px";
 
             requestAnimationFrame(() => {
-                content.style.height = height + "px";
+                content.style.height = content.scrollHeight + "px";
             });
 
-            content.addEventListener("transitionend", function handler() {
+            content.addEventListener("transitionend", () => {
                 content.style.height = "auto";
-                content.removeEventListener("transitionend", handler);
-            });
+            }, { once: true });
         }
     });
 });
