@@ -612,6 +612,26 @@ section#attractions details.details .details-content {
 
 
 /* HEADER */
+header.header-small {
+    display: flex;
+    flex-direction: column;
+    width: 77.5vw;
+    height: 45vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 20vw;
+    margin-right: 2.5vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 46, 131);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
 header.header-large {
     display: flex;
     flex-direction: column;
@@ -832,6 +852,12 @@ footer .footer-nav {
 
 
     /* HEADER */
+    header.header-small {
+        width: 95vw;
+        margin-top: 10vh;
+        margin-left: 2.5vw;
+    }
+
     header.header-large {
         width: 95vw;
         height: 87.5vh;
