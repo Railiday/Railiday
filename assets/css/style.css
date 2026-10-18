@@ -206,6 +206,21 @@ b {
     font-weight: 500;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5px;
+    padding-left: 30px;
+    margin-top: 2.5px;
+    margin-bottom: 5px;
+    list-style-type: square;
+}
+
+i.fa-solid.fa-up-right-from-square {
+    margin-left: 1.25px;
+    font-size: 0.8rem;
+}
+
 
 
 /* TEXT BOXES */
